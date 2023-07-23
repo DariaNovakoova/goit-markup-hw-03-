@@ -1,0 +1,331 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --white: #ffffff;
+  --navyblue: #2e2f42;
+  --cloud: #f4f4fd;
+  --slate: #434455;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
+}
+
+/* SHARED PROPERTIES */
+
+body {
+  font-family: var(--main-font);
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+button {
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+}
+
+.nav {
+}
+
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.span-logo-first {
+  color: var(--navyblue);
+}
+
+.nav-list {
+}
+
+.nav-point {
+}
+
+.nav-id-link.link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-id-link:hover,
+.nav-id-link:focus {
+  color: var(--ocean);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-list {
+}
+
+.address-point {
+}
+
+.address-link.link {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean);
+}
+
+/* MAIN - STUDIO */
+
+.main-studio {
+}
+
+/* SECTION - 1 */
+
+.hero-section {
+  background-color: var(--navyblue);
+}
+
+.hero-title {
+  color: var(--white);
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.hero-button {
+  background-color: var(--iris);
+  color: var(--white);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
+/* SECTION - 2 */
+
+.solutions-section {
+}
+
+.solutions-list {
+}
+
+.solutions-point {
+}
+
+.solutions-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.solutions-description {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* SECTION - 3 */
+
+.work-section {
+}
+
+.work-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.work-list {
+}
+
+.work-point {
+}
+
+/* SECTION - 4 */
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-list {
+}
+
+.team-point {
+  background-color: var(--white);
+}
+
+.team-name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team-profession {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* MAIN-PORTFOLIO */
+
+.main-portfolio {
+}
+
+.portfolio-section {
+}
+
+/* BUTTONS(portfolio) */
+
+.button-list {
+}
+
+.button-point {
+}
+
+.button-name {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-family: var(--main-font);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-name:hover,
+.button-name:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+/* SERVICE-SECTION */
+
+.service-list {
+}
+
+.service-point {
+}
+
+.service-link {
+}
+
+.service-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.service-content {
+  color: var(--slate);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: var(--navyblue);
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  color: var(--iris);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.span-logo-second {
+  color: var(--cloud);
+}
+
+.footer-description {
+  color: var(--cloud);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
